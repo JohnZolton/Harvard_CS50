@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <table style="border:1px solid black; border-spacing: 15px; margin-left: auto; margin-right: auto;">
+        <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Latest Price</th>
+                    <th>Symbol</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> {{ quote["name"] }}</td>
+                    <td> {{ quote["price"] }}</td>
+                    <td> {{ quote["symbol"] }}</td>
+                </tr>
+            </tbody>
+        </table>
+{% endblock %}

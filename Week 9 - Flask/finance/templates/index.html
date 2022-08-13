@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+<div class="container-sm">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+            <th scope="col">Stock</th>
+            <th scope="col">Price</th>
+            <th scope="col">Shares</th>
+            <th scope="col">Value</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for i in big_index %}
+            <tr>
+                    <td> {{ big_index[i]["symbol"] }}</td>
+                    <td> {{ big_index[i]["price"] }}</td>
+                    <td> {{ big_index[i]["shares"] }}</td>
+                    <td> {{ big_index[i]["value"] }}</td>
+            </tr>
+            {% endfor %}
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <th scope="col">Liquidity</th>
+                    <td> {{ cash }}</td>
+                </tr>
+                <td></td>
+                <td></td>
+                <th scope="col">Total Portfolio Value</th>
+                <td> {{ total_value }}</td>
+            </tfoot>
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
