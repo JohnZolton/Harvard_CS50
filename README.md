@@ -27,7 +27,7 @@ Introduction to the intellectual enterprises of computer science and the art of 
 - [Speller](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%205%20-%20Data%20%20Structures/speller/dictionary.c) - loads a dictionary into a hash table, spell checks words in text file against hash table and returns # of misspelled words
 
 ## Week 6 - Python
-- [World Cup](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%206%20-%20Python/world-cup/tournament.py) - simulates world cup games, rounds and tournaments, returns each teams chances of winning
+- [World Cup](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%206%20-%20Python/world-cup/tournament.py) - simulates world cup games, rounds and tournaments, returns each team's chances of winning
 - [Hello 2](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%206%20-%20Python/sentimental-hello/hello.py) - hello world but in python
 - [Mario 2](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%206%20-%20Python/sentimental-mario-less/mario.py) - ascii mario pyramid generator but in python
 - [Cash 2](https://github.com/JohnZolton/Harvard_CS50/blob/main/Week%206%20-%20Python/sentimental-cash/cash.py) - minimum coins needed to make change
